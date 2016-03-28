@@ -69,31 +69,31 @@
 		67F7D9D71CA42E9C000D8815 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = PersistenceLayer/Note.m; sourceTree = "<group>"; };
 		67F7D9D81CA42E9C000D8815 /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteDAO.h; path = PersistenceLayer/NoteDAO.h; sourceTree = "<group>"; };
 		67F7D9D91CA42E9C000D8815 /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteDAO.m; path = PersistenceLayer/NoteDAO.m; sourceTree = "<group>"; };
-		67F7D9DC1CA42ECD000D8815 /* DelegateTransferProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelegateTransferProtocol.h; path = BusinessLogicLayer/DelegateTransferProtocol.h; sourceTree = "<group>"; };
-		67F7D9DD1CA42ECD000D8815 /* ImageTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTextAttachment.h; path = BusinessLogicLayer/ImageTextAttachment.h; sourceTree = "<group>"; };
-		67F7D9DE1CA42ECD000D8815 /* ImageTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageTextAttachment.m; path = BusinessLogicLayer/ImageTextAttachment.m; sourceTree = "<group>"; };
+		67F7D9DC1CA42ECD000D8815 /* DelegateTransferProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DelegateTransferProtocol.h; path = BusinessLogicLayer/DelegateTransferProtocol.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9DD1CA42ECD000D8815 /* ImageTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ImageTextAttachment.h; path = BusinessLogicLayer/ImageTextAttachment.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9DE1CA42ECD000D8815 /* ImageTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ImageTextAttachment.m; path = BusinessLogicLayer/ImageTextAttachment.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		67F7D9DF1CA42ECD000D8815 /* NoteBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteBL.h; path = BusinessLogicLayer/NoteBL.h; sourceTree = "<group>"; };
 		67F7D9E01CA42ECD000D8815 /* NoteBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteBL.m; path = BusinessLogicLayer/NoteBL.m; sourceTree = "<group>"; };
 		67F7D9E11CA42ECD000D8815 /* SingletonNotesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingletonNotesList.h; path = BusinessLogicLayer/SingletonNotesList.h; sourceTree = "<group>"; };
 		67F7D9E21CA42ECD000D8815 /* SingletonNotesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonNotesList.m; path = BusinessLogicLayer/SingletonNotesList.m; sourceTree = "<group>"; };
 		67F7D9E31CA42ECD000D8815 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Scale.h"; path = "BusinessLogicLayer/UIImage+Scale.h"; sourceTree = "<group>"; };
 		67F7D9E41CA42ECD000D8815 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Scale.m"; path = "BusinessLogicLayer/UIImage+Scale.m"; sourceTree = "<group>"; };
-		67F7D9E91CA42EF6000D8815 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorView.h; path = AccessoryView/ColorView.h; sourceTree = "<group>"; };
-		67F7D9EA1CA42EF6000D8815 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorView.m; path = AccessoryView/ColorView.m; sourceTree = "<group>"; };
-		67F7D9EB1CA42EF6000D8815 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = AccessoryView/DrawView.h; sourceTree = "<group>"; };
-		67F7D9EC1CA42EF6000D8815 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = AccessoryView/DrawView.m; sourceTree = "<group>"; };
+		67F7D9E91CA42EF6000D8815 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ColorView.h; path = AccessoryView/ColorView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9EA1CA42EF6000D8815 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ColorView.m; path = AccessoryView/ColorView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		67F7D9EB1CA42EF6000D8815 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DrawView.h; path = AccessoryView/DrawView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9EC1CA42EF6000D8815 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = DrawView.m; path = AccessoryView/DrawView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		67F7D9ED1CA42EF6000D8815 /* MyToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyToolBar.h; path = AccessoryView/MyToolBar.h; sourceTree = "<group>"; };
 		67F7D9EE1CA42EF6000D8815 /* MyToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyToolBar.m; path = AccessoryView/MyToolBar.m; sourceTree = "<group>"; };
 		67F7D9EF1CA42EF6000D8815 /* SearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultTableViewController.h; path = AccessoryView/SearchResultTableViewController.h; sourceTree = "<group>"; };
 		67F7D9F01CA42EF6000D8815 /* SearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultTableViewController.m; path = AccessoryView/SearchResultTableViewController.m; sourceTree = "<group>"; };
 		67F7D9F51CA42F36000D8815 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = Presentationlayer/AddViewController.h; sourceTree = "<group>"; };
 		67F7D9F61CA42F36000D8815 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = Presentationlayer/AddViewController.m; sourceTree = "<group>"; };
-		67F7D9F71CA42F36000D8815 /* BroadSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BroadSideViewController.h; path = Presentationlayer/BroadSideViewController.h; sourceTree = "<group>"; };
-		67F7D9F81CA42F36000D8815 /* BroadSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BroadSideViewController.m; path = Presentationlayer/BroadSideViewController.m; sourceTree = "<group>"; };
+		67F7D9F71CA42F36000D8815 /* BroadSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = BroadSideViewController.h; path = Presentationlayer/BroadSideViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9F81CA42F36000D8815 /* BroadSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = BroadSideViewController.m; path = Presentationlayer/BroadSideViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		67F7D9F91CA42F36000D8815 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Presentationlayer/DetailViewController.h; sourceTree = "<group>"; };
 		67F7D9FA1CA42F36000D8815 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Presentationlayer/DetailViewController.m; sourceTree = "<group>"; };
-		67F7D9FB1CA42F36000D8815 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewController.h; path = Presentationlayer/DrawViewController.h; sourceTree = "<group>"; };
-		67F7D9FC1CA42F36000D8815 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewController.m; path = Presentationlayer/DrawViewController.m; sourceTree = "<group>"; };
+		67F7D9FB1CA42F36000D8815 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DrawViewController.h; path = Presentationlayer/DrawViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		67F7D9FC1CA42F36000D8815 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = DrawViewController.m; path = Presentationlayer/DrawViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		67F7D9FD1CA42F36000D8815 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Presentationlayer/MasterViewController.h; sourceTree = "<group>"; };
 		67F7D9FE1CA42F36000D8815 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Presentationlayer/MasterViewController.m; sourceTree = "<group>"; };
 		67F7D9FF1CA42F36000D8815 /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteTableViewCell.h; path = Presentationlayer/NoteTableViewCell.h; sourceTree = "<group>"; };
@@ -114,18 +114,18 @@
 		67F7DA541CA4447F000D8815 /* yuanbi0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuanbi0.png; path = images/yuanbi0.png; sourceTree = "<group>"; };
 		67F7DA551CA4447F000D8815 /* yuanbi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuanbi1.png; path = images/yuanbi1.png; sourceTree = "<group>"; };
 		BC6ABFBE1C104D9A00189F7E /* MyNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6ABFC21C104D9A00189F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC6ABFC41C104D9A00189F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BC6ABFC51C104D9A00189F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC6ABFC21C104D9A00189F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BC6ABFC41C104D9A00189F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		BC6ABFC51C104D9A00189F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFCB1C104D9A00189F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC6ABFCD1C104D9A00189F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6ABFD01C104D9A00189F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6ABFD21C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6ABFD71C104D9A00189F7E /* MyNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6ABFDB1C104D9A00189F7E /* MyNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNoteTests.m; sourceTree = "<group>"; };
+		BC6ABFDB1C104D9A00189F7E /* MyNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyNoteTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFDD1C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6ABFE21C104D9A00189F7E /* MyNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6ABFE61C104D9A00189F7E /* MyNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNoteUITests.m; sourceTree = "<group>"; };
+		BC6ABFE61C104D9A00189F7E /* MyNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyNoteUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFE81C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -286,16 +286,16 @@
 		BC7F90951C201268008E53A2 /* Presentationlayer */ = {
 			isa = PBXGroup;
 			children = (
+				67F7D9FD1CA42F36000D8815 /* MasterViewController.h */,
+				67F7D9FE1CA42F36000D8815 /* MasterViewController.m */,
 				67F7D9F51CA42F36000D8815 /* AddViewController.h */,
 				67F7D9F61CA42F36000D8815 /* AddViewController.m */,
-				67F7D9F71CA42F36000D8815 /* BroadSideViewController.h */,
-				67F7D9F81CA42F36000D8815 /* BroadSideViewController.m */,
 				67F7D9F91CA42F36000D8815 /* DetailViewController.h */,
 				67F7D9FA1CA42F36000D8815 /* DetailViewController.m */,
 				67F7D9FB1CA42F36000D8815 /* DrawViewController.h */,
 				67F7D9FC1CA42F36000D8815 /* DrawViewController.m */,
-				67F7D9FD1CA42F36000D8815 /* MasterViewController.h */,
-				67F7D9FE1CA42F36000D8815 /* MasterViewController.m */,
+				67F7D9F71CA42F36000D8815 /* BroadSideViewController.h */,
+				67F7D9F81CA42F36000D8815 /* BroadSideViewController.m */,
 				67F7D9FF1CA42F36000D8815 /* NoteTableViewCell.h */,
 				67F7DA001CA42F36000D8815 /* NoteTableViewCell.m */,
 			);

@@ -55,7 +55,7 @@
     //设置tableView的起始contentOffset(1-n即可将起始位置设置为第一个cell)
     self.tableView.contentOffset = CGPointMake(0, 1);
     //设置cell的分割线颜色
-    self.tableView.separatorColor = [UIColor lightGrayColor];
+//    self.tableView.separatorColor = [UIColor lightGrayColor];
     //设置分割线的边距
     [self.tableView setSeparatorInset:UIEdgeInsetsMake(0, 15, 0, 15)];
 
@@ -190,6 +190,10 @@
         cell = [[NoteTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"identifier"];
     }
     
+    //取消选择时的灰色阴影效果
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
+    
     return cell;
 }
 
@@ -219,6 +223,7 @@
 
 //选中cell执行的方法
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
     
     DetailViewController *detailVC = [DetailViewController new];
     detailVC.note = _listArr[indexPath.row];

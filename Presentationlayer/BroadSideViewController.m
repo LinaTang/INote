@@ -3,7 +3,7 @@
 //  MyNote
 //
 //  Created by FT on 16/2/29.
-//  Copyright © 2016年 ft. All rights reserved.
+//  Copyright © 2016年 fft1026@163.com All rights reserved.
 //
 
 #import "BroadSideViewController.h"

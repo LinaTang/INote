@@ -2,8 +2,8 @@
 //  SearchResultTableViewController.m
 //  MyNote
 //
-//  Created by Ibokan on 15/12/17.
-//  Copyright © 2015年 ft. All rights reserved.
+//  Created by ft on 15/12/17.
+//  Copyright © 2015年 fft1026@163.com All rights reserved.
 //
 
 #import "SearchResultTableViewController.h"

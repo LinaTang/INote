@@ -2,8 +2,8 @@
 //  NoteTableViewCell.m
 //  MyNote
 //
-//  Created by Ibokan on 16/2/22.
-//  Copyright © 2016年 ft. All rights reserved.
+//  Created by ft on 16/2/22.
+//  Copyright © 2016年 fft1026@163.com All rights reserved.
 //
 
 #import "NoteTableViewCell.h"
@@ -40,12 +40,13 @@
     statusLB.layer.masksToBounds = YES;
     statusLB.backgroundColor = [note.dict objectForKey:@"color"];
     [self.contentView addSubview:statusLB];
+
 }
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    
     // Configure the view for the selected state
 }
 
