@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MasterViewController.h"
+#import "NoteUser.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,35 @@
     UINavigationController *navCtr = [[UINavigationController alloc] initWithRootViewController:masterVC];
     
     self.window.rootViewController = navCtr;
+    
+    /*
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    //判断是否首次启动
+    if ([userDefaults boolForKey:@"firstLaunch"]) {
+
+        NSDictionary *usersDict = [userDefaults objectForKey:@"usersDict"];
+        for (NSDictionary *dict in usersDict) {
+            if ([[dict objectForKey:@"login"] boolValue]) {
+                NoteUser *user = [NoteUser sharedUser];
+                user.name = [dict objectForKey:@"name"];
+                user.password = [dict objectForKey:@"pwd"];
+                
+                break;
+            }
+        }
+    }else {
+        //首次启动
+        [userDefaults setBool:YES forKey:@"firstLaunch"];
+        
+        NSDictionary *user1 = @{@"name":@"Zeaa", @"pwd":@"123", @"login":@YES};
+        NSDictionary *user2 = @{@"name":@"Jone", @"pwd":@"123", @"login":@NO};
+        
+        NSDictionary *usersDict = [NSDictionary dictionaryWithObjects:@[user1,user2] forKeys:@[@"user1",@"user2"]];
+        
+        [userDefaults setObject:usersDict forKey:@"usersDict"];
+    }
+    */
+    
     
     return YES;
 }

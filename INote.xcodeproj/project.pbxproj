@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670AEF211CBE6C7100573592 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670AEF201CBE6C7100573592 /* UserViewController.m */; };
+		670AEF241CBE72E500573592 /* NoteUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 670AEF231CBE72E500573592 /* NoteUser.m */; };
 		67F7D9DA1CA42E9C000D8815 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7D9D71CA42E9C000D8815 /* Note.m */; };
 		67F7D9DB1CA42E9C000D8815 /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7D9D91CA42E9C000D8815 /* NoteDAO.m */; };
 		67F7D9E51CA42ECD000D8815 /* ImageTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F7D9DE1CA42ECD000D8815 /* ImageTextAttachment.m */; };
@@ -65,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670AEF1F1CBE6C7100573592 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = PresentationLayer/UserViewController.h; sourceTree = "<group>"; };
+		670AEF201CBE6C7100573592 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = PresentationLayer/UserViewController.m; sourceTree = "<group>"; };
+		670AEF221CBE72E500573592 /* NoteUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteUser.h; path = PersistenceLayer/NoteUser.h; sourceTree = "<group>"; };
+		670AEF231CBE72E500573592 /* NoteUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteUser.m; path = PersistenceLayer/NoteUser.m; sourceTree = "<group>"; };
 		67F7D9D61CA42E9C000D8815 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = PersistenceLayer/Note.h; sourceTree = "<group>"; };
 		67F7D9D71CA42E9C000D8815 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = PersistenceLayer/Note.m; sourceTree = "<group>"; };
 		67F7D9D81CA42E9C000D8815 /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteDAO.h; path = PersistenceLayer/NoteDAO.h; sourceTree = "<group>"; };
@@ -113,7 +119,7 @@
 		67F7DA531CA4447F000D8815 /* xiantiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xiantiao.png; path = images/xiantiao.png; sourceTree = "<group>"; };
 		67F7DA541CA4447F000D8815 /* yuanbi0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuanbi0.png; path = images/yuanbi0.png; sourceTree = "<group>"; };
 		67F7DA551CA4447F000D8815 /* yuanbi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuanbi1.png; path = images/yuanbi1.png; sourceTree = "<group>"; };
-		BC6ABFBE1C104D9A00189F7E /* MyNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6ABFBE1C104D9A00189F7E /* INote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6ABFC21C104D9A00189F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFC41C104D9A00189F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		BC6ABFC51C104D9A00189F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -121,10 +127,10 @@
 		BC6ABFCD1C104D9A00189F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6ABFD01C104D9A00189F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6ABFD21C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC6ABFD71C104D9A00189F7E /* MyNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6ABFD71C104D9A00189F7E /* INoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6ABFDB1C104D9A00189F7E /* MyNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyNoteTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFDD1C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC6ABFE21C104D9A00189F7E /* MyNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6ABFE21C104D9A00189F7E /* INoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6ABFE61C104D9A00189F7E /* MyNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyNoteUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BC6ABFE81C104D9A00189F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,9 +200,9 @@
 		BC6ABFBF1C104D9A00189F7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC6ABFBE1C104D9A00189F7E /* MyNote.app */,
-				BC6ABFD71C104D9A00189F7E /* MyNoteTests.xctest */,
-				BC6ABFE21C104D9A00189F7E /* MyNoteUITests.xctest */,
+				BC6ABFBE1C104D9A00189F7E /* INote.app */,
+				BC6ABFD71C104D9A00189F7E /* INoteTests.xctest */,
+				BC6ABFE21C104D9A00189F7E /* INoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 				67F7D9D71CA42E9C000D8815 /* Note.m */,
 				67F7D9D81CA42E9C000D8815 /* NoteDAO.h */,
 				67F7D9D91CA42E9C000D8815 /* NoteDAO.m */,
+				670AEF221CBE72E500573592 /* NoteUser.h */,
+				670AEF231CBE72E500573592 /* NoteUser.m */,
 			);
 			name = PersistenceLayer;
 			sourceTree = "<group>";
@@ -288,6 +296,8 @@
 			children = (
 				67F7D9FD1CA42F36000D8815 /* MasterViewController.h */,
 				67F7D9FE1CA42F36000D8815 /* MasterViewController.m */,
+				670AEF1F1CBE6C7100573592 /* UserViewController.h */,
+				670AEF201CBE6C7100573592 /* UserViewController.m */,
 				67F7D9F51CA42F36000D8815 /* AddViewController.h */,
 				67F7D9F61CA42F36000D8815 /* AddViewController.m */,
 				67F7D9F91CA42F36000D8815 /* DetailViewController.h */,
@@ -305,9 +315,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC6ABFBD1C104D9A00189F7E /* MyNote */ = {
+		BC6ABFBD1C104D9A00189F7E /* INote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC6ABFEB1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNote" */;
+			buildConfigurationList = BC6ABFEB1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INote" */;
 			buildPhases = (
 				BC6ABFBA1C104D9A00189F7E /* Sources */,
 				BC6ABFBB1C104D9A00189F7E /* Frameworks */,
@@ -317,14 +327,14 @@
 			);
 			dependencies = (
 			);
-			name = MyNote;
+			name = INote;
 			productName = MyNote;
-			productReference = BC6ABFBE1C104D9A00189F7E /* MyNote.app */;
+			productReference = BC6ABFBE1C104D9A00189F7E /* INote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BC6ABFD61C104D9A00189F7E /* MyNoteTests */ = {
+		BC6ABFD61C104D9A00189F7E /* INoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC6ABFEE1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNoteTests" */;
+			buildConfigurationList = BC6ABFEE1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INoteTests" */;
 			buildPhases = (
 				BC6ABFD31C104D9A00189F7E /* Sources */,
 				BC6ABFD41C104D9A00189F7E /* Frameworks */,
@@ -335,14 +345,14 @@
 			dependencies = (
 				BC6ABFD91C104D9A00189F7E /* PBXTargetDependency */,
 			);
-			name = MyNoteTests;
+			name = INoteTests;
 			productName = MyNoteTests;
-			productReference = BC6ABFD71C104D9A00189F7E /* MyNoteTests.xctest */;
+			productReference = BC6ABFD71C104D9A00189F7E /* INoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BC6ABFE11C104D9A00189F7E /* MyNoteUITests */ = {
+		BC6ABFE11C104D9A00189F7E /* INoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC6ABFF11C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNoteUITests" */;
+			buildConfigurationList = BC6ABFF11C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INoteUITests" */;
 			buildPhases = (
 				BC6ABFDE1C104D9A00189F7E /* Sources */,
 				BC6ABFDF1C104D9A00189F7E /* Frameworks */,
@@ -353,9 +363,9 @@
 			dependencies = (
 				BC6ABFE41C104D9A00189F7E /* PBXTargetDependency */,
 			);
-			name = MyNoteUITests;
+			name = INoteUITests;
 			productName = MyNoteUITests;
-			productReference = BC6ABFE21C104D9A00189F7E /* MyNoteUITests.xctest */;
+			productReference = BC6ABFE21C104D9A00189F7E /* INoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -369,7 +379,7 @@
 				TargetAttributes = {
 					BC6ABFBD1C104D9A00189F7E = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = JQSZ9BW6H2;
+						DevelopmentTeam = 8BMZBNN3Q5;
 					};
 					BC6ABFD61C104D9A00189F7E = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -394,9 +404,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC6ABFBD1C104D9A00189F7E /* MyNote */,
-				BC6ABFD61C104D9A00189F7E /* MyNoteTests */,
-				BC6ABFE11C104D9A00189F7E /* MyNoteUITests */,
+				BC6ABFBD1C104D9A00189F7E /* INote */,
+				BC6ABFD61C104D9A00189F7E /* INoteTests */,
+				BC6ABFE11C104D9A00189F7E /* INoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -449,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F7D9F41CA42EF6000D8815 /* SearchResultTableViewController.m in Sources */,
+				670AEF211CBE6C7100573592 /* UserViewController.m in Sources */,
 				67F7D9DA1CA42E9C000D8815 /* Note.m in Sources */,
 				67F7D9E81CA42ECD000D8815 /* UIImage+Scale.m in Sources */,
 				BC6ABFC61C104D9A00189F7E /* AppDelegate.m in Sources */,
@@ -457,6 +468,7 @@
 				67F7DA031CA42F36000D8815 /* DetailViewController.m in Sources */,
 				67F7D9E61CA42ECD000D8815 /* NoteBL.m in Sources */,
 				67F7DA021CA42F36000D8815 /* BroadSideViewController.m in Sources */,
+				670AEF241CBE72E500573592 /* NoteUser.m in Sources */,
 				67F7D9E71CA42ECD000D8815 /* SingletonNotesList.m in Sources */,
 				67F7D9E51CA42ECD000D8815 /* ImageTextAttachment.m in Sources */,
 				BC6ABFC31C104D9A00189F7E /* main.m in Sources */,
@@ -490,12 +502,12 @@
 /* Begin PBXTargetDependency section */
 		BC6ABFD91C104D9A00189F7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC6ABFBD1C104D9A00189F7E /* MyNote */;
+			target = BC6ABFBD1C104D9A00189F7E /* INote */;
 			targetProxy = BC6ABFD81C104D9A00189F7E /* PBXContainerItemProxy */;
 		};
 		BC6ABFE41C104D9A00189F7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC6ABFBD1C104D9A00189F7E /* MyNote */;
+			target = BC6ABFBD1C104D9A00189F7E /* INote */;
 			targetProxy = BC6ABFE31C104D9A00189F7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -609,7 +621,7 @@
 				INFOPLIST_FILE = MyNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fft1026163.com.MyNote;
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyv.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -624,7 +636,7 @@
 				INFOPLIST_FILE = MyNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fft1026163.com.MyNote;
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyv.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -690,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC6ABFEB1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNote" */ = {
+		BC6ABFEB1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6ABFEC1C104D9A00189F7E /* Debug */,
@@ -699,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC6ABFEE1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNoteTests" */ = {
+		BC6ABFEE1C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6ABFEF1C104D9A00189F7E /* Debug */,
@@ -708,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC6ABFF11C104D9A00189F7E /* Build configuration list for PBXNativeTarget "MyNoteUITests" */ = {
+		BC6ABFF11C104D9A00189F7E /* Build configuration list for PBXNativeTarget "INoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC6ABFF21C104D9A00189F7E /* Debug */,

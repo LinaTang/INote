@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC6ABFBD1C104D9A00189F7E"
-               BuildableName = "MyNote.app"
-               BlueprintName = "MyNote"
+               BuildableName = "INote.app"
+               BlueprintName = "INote"
                ReferencedContainer = "container:INote.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC6ABFD61C104D9A00189F7E"
-               BuildableName = "MyNoteTests.xctest"
-               BlueprintName = "MyNoteTests"
+               BuildableName = "INoteTests.xctest"
+               BlueprintName = "INoteTests"
                ReferencedContainer = "container:INote.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC6ABFE11C104D9A00189F7E"
-               BuildableName = "MyNoteUITests.xctest"
-               BlueprintName = "MyNoteUITests"
+               BuildableName = "INoteUITests.xctest"
+               BlueprintName = "INoteUITests"
                ReferencedContainer = "container:INote.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC6ABFBD1C104D9A00189F7E"
-            BuildableName = "MyNote.app"
-            BlueprintName = "MyNote"
+            BuildableName = "INote.app"
+            BlueprintName = "INote"
             ReferencedContainer = "container:INote.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC6ABFBD1C104D9A00189F7E"
-            BuildableName = "MyNote.app"
-            BlueprintName = "MyNote"
+            BuildableName = "INote.app"
+            BlueprintName = "INote"
             ReferencedContainer = "container:INote.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC6ABFBD1C104D9A00189F7E"
-            BuildableName = "MyNote.app"
-            BlueprintName = "MyNote"
+            BuildableName = "INote.app"
+            BlueprintName = "INote"
             ReferencedContainer = "container:INote.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,2 +1,0 @@
-/Users/ft/Library/Developer/Xcode/DerivedData/INote-ajdcppklndgxwlcosajteysthvnd/Build/Products/Debug-iphonesimulator/MyNote.app
-iPhone Developer

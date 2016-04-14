@@ -13,6 +13,7 @@
 #import "SearchResultTableViewController.h"
 #import "NoteTableViewCell.h"
 #import "BroadSideViewController.h"
+#import "UserViewController.h"
 
 @interface MasterViewController () <DelegateTransferProtocol,UISearchBarDelegate>
 {
@@ -41,7 +42,7 @@
     _listArr = listArr;
     
     //当listArr改变时，改变显示的note的数量（实现监听的效果）
-    _statusLabel.text = [NSString stringWithFormat:@"%ld Notes",_listArr.count];
+    _statusLabel.text = [NSString stringWithFormat:@"%ld Notes",(unsigned long)_listArr.count];
 }
 
 - (void)viewDidLoad {
@@ -137,6 +138,8 @@
 #pragma mark - 显示侧边栏的方法
 - (void)personalButtonPress {
     
+    //[self presentViewController:[UserViewController new] animated:YES completion:nil];
+    
     static NSInteger flag = 1;
    
     if (flag == _backgroudViews.count){
@@ -166,18 +169,12 @@
 }
 
 
-#pragma mark - tableView相关代理方法的实现
+#pragma mark - UITableViewDataSource相关代理方法的实现
 
 //返回tableview的分区数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return _listArr.count;
-}
-
-//返回tableview的cell数
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-   
-    return 55;
 }
 
 //设置cell的样式
@@ -192,7 +189,6 @@
     
     //取消选择时的灰色阴影效果
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-
     
     return cell;
 }
@@ -218,13 +214,20 @@
         
         [self presentViewController:alertController animated:YES completion:nil];
     }
+}
 
+#pragma mark - UITableViewDelegate相关代理方法的实现
+
+
+//返回tableview的cell数
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return 55;
 }
 
 //选中cell执行的方法
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    
     DetailViewController *detailVC = [DetailViewController new];
     detailVC.note = _listArr[indexPath.row];
     detailVC.delegate = self;
@@ -253,7 +256,6 @@
     opacityAnimation1.duration = 1;
     opacityAnimation1.repeatCount = 0.7;
     [cell.layer addAnimation:opacityAnimation1 forKey:@"adasddsd"];
-    
     
     NoteTableViewCell *myCell = (NoteTableViewCell *)cell;
     myCell.backgroundColor = [UIColor clearColor];

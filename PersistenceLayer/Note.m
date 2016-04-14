@@ -10,7 +10,9 @@
 
 @implementation Note
 
-//编码方法
+#pragma mark - 实现NSCoding的协议方法
+
+//编码方法（对OC对象进行编码操作）
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:_date forKey:@"date"];
 //    [aCoder encodeObject:_content forKey:@"content"];                       //***
@@ -18,7 +20,7 @@
     [aCoder encodeObject:_dict forKey:@"dictionary"];
 }
 
-//反编码方法
+//反编码方法（对OC对象惊醒解码操作）
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self.date = [aDecoder decodeObjectForKey:@"date"];
 //    self.content = [aDecoder decodeObjectForKey:@"content"];                       //***

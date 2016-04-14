@@ -7,6 +7,7 @@
 //
 
 #import "NoteDAO.h"
+#import "NoteUser.h"
 
 #define ARCHIVE_KEY @"archiveKey"
 
@@ -98,11 +99,10 @@
 
 - (Note *)findbyId:(Note *)model {
     NSString *path = [self applicationDocumentsDirectoryFile];
-    
-    NSMutableArray *listData = [[NSMutableArray alloc] init];
     NSData *theData = [NSData dataWithContentsOfFile:path];
     
     if ( [theData length] > 0 ) {
+        NSMutableArray *listData;
         NSKeyedUnarchiver *unArchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:theData];
         listData = [unArchiver decodeObjectForKey:ARCHIVE_KEY];
         [unArchiver finishDecoding];
@@ -121,6 +121,9 @@
 //该方法用于获取放置在沙箱Documents目录下面的文件的完整路径
 - (NSString *)applicationDocumentsDirectoryFile {
     NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    
+    //NoteUser *user = [NoteUser sharedUser];
+    //NSString *path = [documentDirectory stringByAppendingPathComponent:user.name];
     NSString *path = [documentDirectory stringByAppendingPathComponent:@"notes"];
     //    [self getTheCurrentDate];
     return path;
